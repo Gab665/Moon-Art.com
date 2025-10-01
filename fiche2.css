@@ -1,0 +1,36 @@
+.Catalogue{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    flex-direction: row;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background-color: darkgray ;
+}
+.produit{
+    border: 1px solid #ccc;
+    background-color: #afb3c7;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    margin: 20px auto;
+   
+
+
+}
+
+.produit img{
+    width: 100%;
+    height: min-content;
+    
+}
+
+.prix{
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}
